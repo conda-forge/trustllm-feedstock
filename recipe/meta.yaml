@@ -1,5 +1,5 @@
 {% set name = "trustllm" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/trustllm-{{ version }}.tar.gz
-  sha256: 818d003c408b8b7b4e0a191c91f1b8c7d44192610d4b023696afe5a94bcb5ace
+  sha256: 20935b33ee293908365a022fcc116b2c73d01e1e27e1524334802f94882e7b9a
 
 build:
   number: 0
@@ -42,7 +42,7 @@ about:
   summary: "TrustLLM: A Benchmark of Trustworthiness in Large Language Models"
   license: MIT
   license_file: LICENSE
-  description: |
+  description: |2
 
     PyPI: [https://pypi.org/project/{{ name | lower }}/](https://pypi.org/project/{{ name | lower }}/)
 
